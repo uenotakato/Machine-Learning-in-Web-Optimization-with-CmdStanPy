@@ -9,4 +9,8 @@ docker compose up
 ```
 ターミナルの出力の後半にあるリンクを開くとJupyterLabに飛ぶことができます。
 
-dockerをインストールせずに利用したい場合は，`poetry install`を実行してください。pythonのバージョンは`3.11.0`です。
+dockerをインストールせずに利用したい場合は，以下のコマンドを実行してください。（pythonのバージョンは`3.11.0`を使用してください。）
+```
+poetry install
+install_cmdstan
+```
