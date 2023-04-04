@@ -1,4 +1,6 @@
 *
 !*/
 !*.*
-
+.ipynb_checkpoints
+!Dockerfile
+*/*/*.hpp
