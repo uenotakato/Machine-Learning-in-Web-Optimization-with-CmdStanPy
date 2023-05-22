@@ -28,3 +28,11 @@ model {
     clicks[i] ~ binomial(n[i], theta[i]);
   }
 }
+
+generated quantities {
+    vector[N] log_lik;
+
+    for (i in 1:N) {
+        log_lik[i] = binomial_lpmf(clicks[i] | n[i], theta[i]); // 定数を含んだ対数尤度
+    }
+}

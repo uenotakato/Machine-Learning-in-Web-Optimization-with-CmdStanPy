@@ -4,3 +4,5 @@
 .ipynb_checkpoints
 !Dockerfile
 */*/*.hpp
+memo.md
+images
